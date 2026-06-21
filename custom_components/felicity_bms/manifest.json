@@ -5,7 +5,7 @@
   "documentation": "https://github.com/user/bms",
   "issue_tracker": "https://github.com/user/bms/issues",
   "dependencies": [],
-  "codeowners": ["@antigravity"],
+  "codeowners": ["@gabbo99g-creator"],
   "iot_class": "local_polling",
   "requirements": []
 }
