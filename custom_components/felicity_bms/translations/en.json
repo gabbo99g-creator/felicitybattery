@@ -1,0 +1,23 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configure Felicity Solar BMS Bridge",
+        "description": "Enter the host and port where the local felicity-bms-bridge REST API is running.",
+        "data": {
+          "host": "Bridge Host/IP",
+          "port": "Bridge Port",
+          "scan_interval": "Update Interval (seconds)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to the Felicity BMS Bridge service. Make sure the service is running and accessible.",
+      "invalid_bridge_response": "The bridge service returned an invalid response. Please check bridge logs.",
+      "unknown": "An unexpected error occurred."
+    },
+    "abort": {
+      "already_configured": "An integration entry with this host and port is already configured."
+    }
+  }
+}

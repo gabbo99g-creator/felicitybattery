@@ -1,0 +1,23 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configura Felicity Solar BMS Bridge",
+        "description": "Inserisci l'host e la porta su cui è in esecuzione l'API REST locale di felicity-bms-bridge.",
+        "data": {
+          "host": "Host/IP del Bridge",
+          "port": "Porta del Bridge",
+          "scan_interval": "Intervallo di aggiornamento (secondi)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Impossibile connettersi al servizio Felicity BMS Bridge. Assicurati che il servizio sia in esecuzione e accessibile.",
+      "invalid_bridge_response": "Il servizio bridge ha restituito una risposta non valida. Controlla i log del bridge.",
+      "unknown": "Si è verificato un errore imprevisto."
+    },
+    "abort": {
+      "already_configured": "Un'istanza di integrazione con questo host e porta è già configurata."
+    }
+  }
+}
