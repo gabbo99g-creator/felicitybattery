@@ -8,4 +8,5 @@
   "codeowners": ["@gabbo99g-creator"],
   "iot_class": "local_polling",
   "requirements": []
+  "config_flow": true
 }
